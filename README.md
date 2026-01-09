@@ -61,17 +61,17 @@
 
 <!-- GitHub Stats Card -->
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=1a1b26&title_color=2AC3DE&icon_color=2AC3DE&text_color=c0caf5&border_color=1a1b26" alt="GitHub Stats" />
+    <img src="https://gh-readme-stats.vercel.app/api?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 </p>
 
 <!-- Streak Stats -->
 <p align="center">
-    <img src="https://streak-stats.demolab.com?user=Khoa280703&theme=tokyonight&hide_border=true&background=1A1B26&stroke=2AC3DE&ring=2AC3DE&fire=FF9E64&currStreakNum=C0CAF5&currStreakLabel=2AC3DE&sideNums=C0CAF5&sideLabels=C0CAF5&dates=565F89" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=Khoa280703&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 <!-- Top Languages -->
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&bg_color=1a1b26&title_color=2AC3DE&text_color=c0caf5&border_color=1a1b26&langs_count=10" alt="Top Languages" />
+    <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=10" alt="Top Languages" />
 </p>
 
 <!-- Contribution Graph -->
