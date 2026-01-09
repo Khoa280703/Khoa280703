@@ -77,6 +77,105 @@
     height: 80px;
   }
 }
+
+/* Wave Separator Styles */
+.wave-separator {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin: 40px 0;
+  position: relative;
+}
+
+.wave-separator svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.wave1 {
+  animation: wave-move 8s ease-in-out infinite;
+}
+
+.wave2 {
+  animation: wave-move 12s ease-in-out infinite reverse;
+  opacity: 0.7;
+}
+
+@keyframes wave-move {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-2%) translateY(-3px);
+  }
+  50% {
+    transform: translateX(0) translateY(-5px);
+  }
+  75% {
+    transform: translateX(2%) translateY(-3px);
+  }
+}
+
+@media (max-width: 768px) {
+  .wave-separator svg {
+    height: 60px;
+  }
+}
+
+/* Trophy Cabinet Styles */
+.trophy-cabinet {
+  background: linear-gradient(135deg, rgba(26, 27, 38, 0.9) 0%, rgba(42, 195, 222, 0.15) 100%);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px 0;
+  border: 2px solid rgba(42, 195, 222, 0.3);
+}
+
+.trophy-cabinet img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(42, 195, 222, 0.4));
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .trophy-cabinet {
+    padding: 20px 10px;
+  }
+  .trophy-cabinet img {
+    width: 100% !important;
+  }
+}
+
+/* YouTube Card Styles */
+.youtube-card {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #2AC3DE;
+}
+
+.youtube-card:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 30px rgba(42, 195, 222, 0.5);
+}
+
+.youtube-card img {
+  display: block;
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .youtube-card img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
 </style>
 
 # 👋 Hi, I'm Khoa
@@ -89,6 +188,25 @@
     <img src="https://komarev.com/ghpvc/?username=Khoa280703&style=for-the-badge&color=2AC3DE&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
+</div>
+
+<!-- Wave Separator 1 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2)" class="wave wave2"></path>
+  </svg>
 </div>
 
 ---
@@ -134,6 +252,25 @@
 ![Git](https://skillicons.dev/icons?i=git&theme=light)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=light)
 
+<!-- Wave Separator 2 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1b" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2b" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1b)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2b)" class="wave wave2"></path>
+  </svg>
+</div>
+
 ---
 
 ## 📊 GitHub Stats
@@ -157,6 +294,96 @@
 <p align="center">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoa280703&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=2AC3DE&line=2AC3DE&point=FF9E64" alt="Contribution Graph" />
 </p>
+
+</div>
+
+<!-- Wave Separator 3 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1c" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2c" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1c)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2c)" class="wave wave2"></path>
+  </svg>
+</div>
+
+<div align="center">
+
+## 🏆 Trophy Cabinet
+
+<div class="trophy-cabinet">
+  <img src="https://github-profile-trophy.vercel.app/?username=Khoa280703&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10&row=2&column=4"
+       alt="GitHub Trophies"
+       width="800"
+       loading="lazy" />
+</div>
+
+*Achievements unlocked through consistency and contribution*
+
+</div>
+
+<!-- Wave Separator 4 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1d" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2d" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1d)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2d)" class="wave wave2"></path>
+  </svg>
+</div>
+
+<!-- START YOUTUBE -->
+<div align="center">
+
+## 🎬 Latest Videos
+
+<div align="center">
+
+*🎵 YouTube videos will be synced here automatically*
+
+*🔧 To enable: Add your YouTube Channel ID to repo secrets*
+
+</div>
+
+</div>
+<!-- END YOUTUBE -->
+
+<!-- Wave Separator 5 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1e" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2e" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1e)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2e)" class="wave wave2"></path>
+  </svg>
+</div>
 
 ---
 
