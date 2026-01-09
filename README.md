@@ -1,6 +1,10 @@
+<div align="center">
+
 # 👋 Hi, I'm Khoa
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=2AC3DE&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;%F0%9F%90%8D+Python+%7C+%E2%9A%A1+Rust+%7C+%F0%9F%A6%8A+Go+%7C+%F0%9F%90%A2+Flutter;%F0%9F%92%99+Open+Source+Enthusiast;%F0%9F%8C%A7%EF%B8%8F+Based+in+Ho+Chi+Minh+City)
+
+</div>
 
 ## 🚀 About Me
 
