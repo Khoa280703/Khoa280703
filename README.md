@@ -1,157 +1,6 @@
-<style>
-.tokyo-banner {
-  background: linear-gradient(135deg, #1A1B26 0%, #2AC3DE 50%, #C0CAF5 100%);
-  padding: 40px 20px;
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 40px rgba(42, 195, 222, 0.3);
-}
-
-.tokyo-banner::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(42, 195, 222, 0.15) 1px, transparent 1px);
-  background-size: 50px 50px;
-  animation: particles 20s linear infinite;
-  pointer-events: none;
-}
-
-.avatar-3d {
-  border-radius: 50%;
-  border: 4px solid #2AC3DE;
-  animation: spin3d 10s linear infinite, glow 2s ease-in-out infinite;
-  transform-style: preserve-3d;
-  will-change: transform;
-  transition: animation-duration 0.3s ease;
-  background: #1A1B26;
-  position: relative;
-  z-index: 1;
-}
-
-.avatar-3d:hover {
-  animation-duration: 3s;
-}
-
-@keyframes spin3d {
-  0% { transform: rotateY(0deg); }
-  100% { transform: rotateY(360deg); }
-}
-
-@keyframes glow {
-  0%, 100% {
-    box-shadow: 0 0 20px #2AC3DE, 0 0 40px rgba(42, 195, 222, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 40px #2AC3DE, 0 0 80px rgba(42, 195, 222, 0.8), 0 0 60px #C0CAF5;
-  }
-}
-
-@keyframes particles {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(50px, 50px); }
-}
-
-.wave-separator {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  margin: 40px 0;
-  position: relative;
-}
-
-.wave-separator svg {
-  display: block;
-  width: 100%;
-  height: 100px;
-}
-
-.wave1 {
-  animation: wave-move 8s ease-in-out infinite;
-}
-
-.wave2 {
-  animation: wave-move 12s ease-in-out infinite reverse;
-  opacity: 0.7;
-}
-
-@keyframes wave-move {
-  0%, 100% {
-    transform: translateX(0) translateY(0);
-  }
-  25% {
-    transform: translateX(-2%) translateY(-3px);
-  }
-  50% {
-    transform: translateX(0) translateY(-5px);
-  }
-  75% {
-    transform: translateX(2%) translateY(-3px);
-  }
-}
-
-@media (max-width: 768px) {
-  .tokyo-banner {
-    padding: 30px 15px;
-  }
-  .avatar-3d {
-    width: 80px;
-    height: 80px;
-  }
-  .wave-separator svg {
-    height: 60px;
-  }
-}
-</style>
-
-<div align="center">
-
-<!-- Tokyo Night Header Banner -->
-<div class="tokyo-banner">
-  <img src="https://github.com/Khoa280703.png"
-       alt="Khoa's Avatar"
-       class="avatar-3d"
-       width="120"
-       height="120" />
-</div>
-
 # 👋 Hi, I'm Khoa
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=2AC3DE&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;%F0%9F%90%8D+Python+%7C+%E2%9A%A1+Rust+%7C+%F0%9F%A6%8A+Go+%7C+%F0%9F%90%A2+Flutter;%F0%9F%92%99+Open+Source+Enthusiast;%F0%9F%8C%A7%EF%B8%8F+Based+in+Ho+Chi+Minh+City" alt="Typing SVG" /></a>
-
-<!-- Visitor Counter -->
-<p>
-    <img src="https://komarev.com/ghpvc/?username=Khoa280703&style=for-the-badge&color=2AC3DE&label=PROFILE+VIEWS" alt="Profile Views" />
-</p>
-
-</div>
-
-<!-- Wave Separator 1 -->
-<div class="wave-separator">
-  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
-      </linearGradient>
-      <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
-        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
-      </linearGradient>
-    </defs>
-    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1)" class="wave wave1"></path>
-    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2)" class="wave wave2"></path>
-  </svg>
-</div>
-
----
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=2AC3DE&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;%F0%9F%90%8D+Python+%7C+%E2%9A%A1+Rust+%7C+%F0%9F%A6%8A+Go+%7C+%F0%9F%90%A2+Flutter;%F0%9F%92%99+Open+Source+Enthusiast;%F0%9F%8C%A7%EF%B8%8F+Based+in+Ho+Chi+Minh+City)
 
 ## 🚀 About Me
 
@@ -159,8 +8,6 @@
 - 🌍 Based in **Ho Chi Minh City**, Vietnam
 - 💡 Passionate about **Open Source** and building scalable applications
 - 🎯 Currently exploring **Cloud Native** and **Distributed Systems**
-
----
 
 ## 🛠️ Tech Stack
 
@@ -194,27 +41,6 @@
 ![Git](https://skillicons.dev/icons?i=git&theme=light)
 ![GitHub](https://skillicons.dev/icons?i=github&theme=light)
 
-<!-- Wave Separator 2 -->
-<div class="wave-separator">
-  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="waveGradient1b" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
-      </linearGradient>
-      <linearGradient id="waveGradient2b" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
-        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
-      </linearGradient>
-    </defs>
-    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1b)" class="wave wave1"></path>
-    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2b)" class="wave wave2"></path>
-  </svg>
-</div>
-
----
-
 ## 📊 GitHub Stats
 
 <!-- GitHub Stats Card -->
@@ -237,57 +63,6 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoa280703&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=2AC3DE&line=2AC3DE&point=FF9E64" alt="Contribution Graph" />
 </p>
 
-<!-- Wave Separator 3 -->
-<div class="wave-separator">
-  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="waveGradient1c" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
-      </linearGradient>
-      <linearGradient id="waveGradient2c" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
-        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
-      </linearGradient>
-    </defs>
-    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1c)" class="wave wave1"></path>
-    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2c)" class="wave wave2"></path>
-  </svg>
-</div>
-
-<!-- START YOUTUBE -->
-<div align="center">
-
-## 🎬 Latest Videos
-
-<!-- 🎵 YouTube videos will be synced here automatically -->
-<!-- 🔧 Setup: Add YOUTUBE_CHANNEL_ID to repo secrets, then run "Sync YouTube Videos" workflow -->
-
-</div>
-<!-- END YOUTUBE -->
-
-<!-- Wave Separator 4 -->
-<div class="wave-separator">
-  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="waveGradient1d" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
-      </linearGradient>
-      <linearGradient id="waveGradient2d" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
-        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
-      </linearGradient>
-    </defs>
-    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1d)" class="wave wave1"></path>
-    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2d)" class="wave wave2"></path>
-  </svg>
-</div>
-
----
-
 ## 🐍 Snake Game
 
 <!-- Snake Animation -->
@@ -296,8 +71,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Khoa280703/Khoa280703/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Khoa280703/Khoa280703/output/github-contribution-grid-snake-dark.svg">
 </picture>
-
----
 
 ## 🌐 Connect With Me
 
@@ -315,10 +88,6 @@
 <div align="center">
 
 ### 💡 "Code is poetry written for machines to understand and humans to appreciate."
-
-</div>
-
-<div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Khoa280703&style=flat-square&color=2AC3DE)
 ![Followers](https://img.shields.io/github/followers/Khoa280703?style=flat-square&color=2AC3DE&label=Followers)
