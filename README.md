@@ -52,11 +52,6 @@
     <img src="https://gh-readme-stats.vercel.app/api?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 </p>
 
-<!-- Streak Stats -->
-<p align="center">
-    <img src="https://streak-stats.demolab.com?user=Khoa280703&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
 <!-- Top Languages -->
 <p align="center">
     <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Khoa280703&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&langs_count=10" alt="Top Languages" />
