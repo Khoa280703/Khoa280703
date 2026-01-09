@@ -256,6 +256,36 @@
   </svg>
 </div>
 
+<!-- START YOUTUBE -->
+<div align="center">
+
+## 🎬 Latest Videos
+
+<!-- 🎵 YouTube videos will be synced here automatically -->
+<!-- 🔧 Setup: Add YOUTUBE_CHANNEL_ID to repo secrets, then run "Sync YouTube Videos" workflow -->
+
+</div>
+<!-- END YOUTUBE -->
+
+<!-- Wave Separator 4 -->
+<div class="wave-separator">
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="waveGradient1d" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#2AC3DE;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#7AA2F7;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#C0CAF5;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="waveGradient2d" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#C0CAF5;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#2AC3DE;stop-opacity:0.7" />
+      </linearGradient>
+    </defs>
+    <path d="M0,60 C150,120 350,0 600,60 C850,120 1050,0 1200,60 L1200,120 L0,120 Z" fill="url(#waveGradient1d)" class="wave wave1"></path>
+    <path d="M0,80 C200,140 400,20 600,80 C800,140 1000,20 1200,80 L1200,120 L0,120 Z" fill="url(#waveGradient2d)" class="wave wave2"></path>
+  </svg>
+</div>
+
 ---
 
 ## 🐍 Snake Game
