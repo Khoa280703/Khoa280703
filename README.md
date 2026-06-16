@@ -6,44 +6,6 @@
 
 </div>
 
-## 🚀 About Me
-
-- 💻 **Full-Stack Developer** | 🐍 Python | ⚡ Rust | 🦊 Go | 🐢 Flutter
-- 🌍 Based in **Ho Chi Minh City**, Vietnam
-- 💡 Passionate about **Open Source** and building scalable applications
-- 🎯 Currently exploring **Cloud Native** and **Distributed Systems**
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://skillicons.dev/icons?i=python&theme=light)
-![TypeScript](https://skillicons.dev/icons?i=ts&theme=light)
-![JavaScript](https://skillicons.dev/icons?i=js&theme=light)
-![Go](https://skillicons.dev/icons?i=go&theme=light)
-![Rust](https://skillicons.dev/icons?i=rust&theme=light)
-![Flutter](https://skillicons.dev/icons?i=flutter&theme=light)
-
-### Frontend & Mobile
-![React](https://skillicons.dev/icons?i=react&theme=light)
-![Next.js](https://skillicons.dev/icons?i=nextjs&theme=light)
-![Vue](https://skillicons.dev/icons?i=vue&theme=light)
-![Flutter](https://skillicons.dev/icons?i=flutter&theme=light)
-![Dart](https://skillicons.dev/icons?i=dart&theme=light)
-
-### Backend & DevOps
-![Node.js](https://skillicons.dev/icons?i=nodejs&theme=light)
-![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=light)
-![Docker](https://skillicons.dev/icons?i=docker&theme=light)
-![Kubernetes](https://skillicons.dev/icons?i=kubernetes&theme=light)
-![AWS](https://skillicons.dev/icons?i=aws&theme=light)
-![Linux](https://skillicons.dev/icons?i=linux&theme=light)
-
-### Databases & Tools
-![PostgreSQL](https://skillicons.dev/icons?i=postgresql&theme=light)
-![MongoDB](https://skillicons.dev/icons?i=mongo&theme=light)
-![Redis](https://skillicons.dev/icons?i=redis&theme=light)
-![Git](https://skillicons.dev/icons?i=git&theme=light)
-![GitHub](https://skillicons.dev/icons?i=github&theme=light)
 
 ## 📊 GitHub Stats
 
@@ -66,15 +28,6 @@
 <p align="center">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoa280703&theme=tokyo-night&hide_border=true&bg_color=1a1b26&color=2AC3DE&line=2AC3DE&point=FF9E64" alt="Contribution Graph" />
 </p>
-
-## 🐍 Snake Game
-
-<!-- Snake Animation -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Khoa280703/Khoa280703/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Khoa280703/Khoa280703/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Khoa280703/Khoa280703/output/github-contribution-grid-snake-dark.svg">
-</picture>
 
 ## 🌐 Connect With Me
 
